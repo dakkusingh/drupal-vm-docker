@@ -1,4 +1,4 @@
-VERSION ?= 1
+VERSION ?= 2
 
 REPO = dakku/drupal-vm-extra
 NAME = drupal-vm-extra
@@ -27,7 +27,7 @@ clean:
 	docker rm -f $(NAME)
 
 tag:
-	docker tag $(REPO):$(VERSION)
+	docker tag $(REPO):$(VERSION) $(REPO):$(VERSION)
 
 push: tag
 	docker push $(REPO)
