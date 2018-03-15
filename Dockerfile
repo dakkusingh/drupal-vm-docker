@@ -1,4 +1,4 @@
-FROM dakku/drupal-vm-autobuild:latest
+FROM dakku/drupal-vm-autobuild:ubuntu1804
 LABEL maintainer="Dakku Singh"
 
 # Copy provisioning directory, variable overrides, and scripts into container.
