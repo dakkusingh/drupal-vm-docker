@@ -1,7 +1,7 @@
 VERSION ?= 2
 
-REPO = dakku/drupal-vm-extra
-NAME = drupal-vm-extra
+REPO = dakku/drupal-vm-docker
+NAME = drupal-vm-docker
 
 .PHONY: build shell run start stop logs clean release
 
